@@ -17,6 +17,13 @@ public class RectDrawerFeature : ScriptableRendererFeature
 
     private RectDrawerPass _pass;
 
+    public void SetPosSize(Vector4 posSize)
+    {
+        if (_pass == null) return;
+
+        _pass.posSize = posSize;
+    }
+
     public override void Create()
     {
         ResourceReloader.ReloadAllNullIn(this, "Assets/");
