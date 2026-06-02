@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900573839}
-  - component: {fileID: 1900573840}
+  - component: {fileID: 1900573841}
   m_Layer: 0
   m_Name: MANAGERS
   m_TagString: Untagged
@@ -337,7 +337,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1900573840
+--- !u!114 &1900573841
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -346,13 +346,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1900573838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17485199946f4cd88a803d2fb2329d93, type: 3}
+  m_Script: {fileID: 11500000, guid: 479a45123703463692559155210efdd3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ManualRectController
-  x: 513
-  y: 284
-  z: 5
-  w: 5
+  m_EditorClassIdentifier: Assembly-CSharp::LinearRectController
+  x: {x: 400, y: 500}
+  y: {x: 300, y: 300}
+  z: {x: 5, y: 5}
+  w: {x: 5, y: 5}
+  frameSkipCount: 15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
